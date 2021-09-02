@@ -2,3 +2,9 @@
  title: Jeeroc的笔记
  author: Jeeroc
  color_scheme: config 
+ defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
