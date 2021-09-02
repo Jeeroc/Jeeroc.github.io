@@ -1,8 +1,3 @@
----
-layout: default
-title: Readme
-nav_order: 1
----
 
 ## Welcome to GitHub Pages
 
