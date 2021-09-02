@@ -1,5 +1,4 @@
  remote_theme: pmarsceill/just-the-docs
  title: Jeeroc的笔记
- exclude: ["README.md"]
  color_scheme: config 
  
