@@ -1,9 +1,5 @@
----
-layout: default
-title: Readme
-nav_exclude: True
----
-## Welcome to GitHub Pages
+
+## Home
 
 You can use the [editor on GitHub](https://github.com/Jeeroc/Jeeroc.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
