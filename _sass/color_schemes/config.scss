@@ -70,20 +70,20 @@ $red-100: #f96e65 !default;
 $red-200: #e94c4c !default;
 $red-300: #dd2e2e !default;
 
-$body-background-color: $white !default;
-$sidebar-color: $grey-lt-000 !default;
-$search-background-color: $white !default;
-$table-background-color: $white !default;
-$code-background-color: $grey-lt-000 !default;
-$feedback-color: darken($sidebar-color, 3%) !default;
+$body-background-color: $white ;
+$sidebar-color: $grey-lt-000;
+$search-background-color: $white;
+$table-background-color: $white;
+$code-background-color: $grey-lt-000;
+$feedback-color: darken($sidebar-color, 3%);
 
-$body-text-color: $grey-dk-100 !default;
-$body-heading-color: $grey-dk-300 !default;
-$search-result-preview-color: $grey-dk-000 !default;
-$nav-child-link-color: $grey-dk-100 !default;
-$link-color: $grey-dk-100 !default;
-$btn-primary-color: $grey-dk-100 !default;
-$base-button-color: #f7f7f7 !default;
+$body-text-color: $grey-dk-100 ;
+$body-heading-color: $grey-dk-300 ;
+$search-result-preview-color: $grey-dk-000 ;
+$nav-child-link-color: $grey-dk-100;
+$link-color: $grey-dk-100 ;
+$btn-primary-color: $grey-dk-100;
+$base-button-color: #f7f7f7 ;
 
 //
 // Spacing
