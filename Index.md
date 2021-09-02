@@ -1,4 +1,8 @@
-
+---
+layout: default
+title: Index
+nav_order: 1
+---
 ## Home
 
 You can use the [editor on GitHub](https://github.com/Jeeroc/Jeeroc.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
