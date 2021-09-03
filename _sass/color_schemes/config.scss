@@ -131,12 +131,12 @@ $border-color: $grey-lt-100 !default;
 
 $gutter-spacing: $sp-6 !default;
 $gutter-spacing-sm: $sp-4 !default;
-$nav-width: 164px ;
-$nav-width-md: 148px ;
+$nav-width: 100px ;
+$nav-width-md: 100px ;
 $nav-list-item-height: $sp-6 !default;
 $nav-list-item-height-sm: $sp-8 !default;
 $nav-list-expander-right: true;
-$content-width: 1000px ;
+$content-width: 1200px ;
 $header-height: 60px !default;
 $search-results-width: $content-width - $nav-width !default;
 $transition-duration: 400ms;
