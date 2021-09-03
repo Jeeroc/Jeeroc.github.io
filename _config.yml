@@ -1,6 +1,7 @@
  remote_theme: pmarsceill/just-the-docs
  title: Jeeroc的笔记
  author: Jeeroc
+ baseurl: "/_posts"
  color_scheme: config 
  layout: layout
  defaults:
