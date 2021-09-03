@@ -4,7 +4,5 @@
  color_scheme: config 
  defaults:
   -
-    scope:
-      path: "" # an empty string here means all files in the project
-    values:
+      values:
       layout: "default"
