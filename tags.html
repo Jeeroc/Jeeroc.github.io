@@ -14,8 +14,8 @@ permalink: /tags/
 </ul>
 
 <ul class="listing">
-    {% for page in site.pages %}
-    {% for tag in page.tags %}
+    {% for pagess in site.pages %}
+    {% for tag in pagess.tags %}
     <li class="listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</li>
     {% for page in tag[1] %}
     <li class="listing-item">
