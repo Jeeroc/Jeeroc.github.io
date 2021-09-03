@@ -2,6 +2,7 @@
  title: Jeeroc的笔记
  author: Jeeroc
  color_scheme: config 
+ layout: layout
  defaults:
   -
       values:
