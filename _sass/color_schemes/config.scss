@@ -146,9 +146,9 @@ $transition-duration: 400ms;
 //
 
 $media-queries: (
-  xs: 320px,
-  sm: 500px,
-  md: $content-width,
+  xs: $content-width + $nav-width,
+  sm: $content-width + $nav-width,
+  md: $content-width + $nav-width,
   lg: $content-width + $nav-width,
-  xl: 1400px,
-) !default;
+  xl: $content-width + $nav-width,
+) ;
