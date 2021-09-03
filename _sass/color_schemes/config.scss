@@ -84,7 +84,6 @@ $nav-child-link-color: $grey-dk-100;
 $link-color: $grey-dk-100 ;
 $btn-primary-color: $grey-dk-100;
 $base-button-color: #f7f7f7 ;
-$sidebar-width: 2px;
 
 //
 // Spacing
@@ -129,8 +128,8 @@ $border-color: $grey-lt-100 !default;
 // Grid system
 //
 
-$gutter-spacing: 2px;
-$gutter-spacing-sm: 2px;
+$gutter-spacing: $sp-6;
+$gutter-spacing-sm: $sp-4;
 $nav-width: 200px ;
 $nav-width-md: 200px ;
 $nav-list-item-height: $sp-6 !default;
@@ -149,6 +148,6 @@ $media-queries: (
   xs: $content-width + $nav-width,
   sm: $content-width + $nav-width,
   md: $content-width + $nav-width,
-  lg: $content-width + $nav-width,
-  xl: $content-width + $nav-width,
+  lg: 1920px,
+  xl: 1920px,
 ) ;
