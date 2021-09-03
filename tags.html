@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: 标签
 permalink: /tags/
 ---
@@ -14,10 +14,10 @@ permalink: /tags/
 <ul class="listing">
     {% for tag in site.tags %}
     <li class="listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</li>
-    {% for post in tag[1] %}
+    {% for page in tag[1] %}
     <li class="listing-item">
-        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+        <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time>
+        <a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a>
     </li>
     {% endfor %}
 {% endfor %}
