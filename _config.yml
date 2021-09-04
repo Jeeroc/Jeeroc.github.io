@@ -3,6 +3,7 @@
  author: Jeeroc
  color_scheme: config 
  layout: layout
+ sidebar: true
  defaults:  
   -   scope: 
         path: ""
