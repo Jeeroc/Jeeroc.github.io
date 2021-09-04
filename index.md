@@ -3,4 +3,4 @@ layout: default
 title: index
 ---
 
-index
+![](/images/index.png)
