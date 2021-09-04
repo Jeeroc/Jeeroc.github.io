@@ -4,20 +4,22 @@ permalink: /categories/
 title: "分类"
 ---
 
-<div id="archives">
-{% for category in site.categories %}
-  <div class="archive-group">
-    {% capture category_name %}{{ category | first }}{% endcapture %}
-    <div id="#{{ category_name | slugize }}"></div>
-    <p></p>
-
-    <h3 class="category-head">{{ category_name }}</h3>
-    <a name="{{ category_name | slugize }}"></a>
-    {% for post in site.categories[category_name] %}
-    <article class="archive-item">
-      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
-    </article>
+<ul class="categories">
+   {% for cat in site.categories %}    
+    <li>
+        <a href="#{{ cat[0] }}">{{ cat[0] }}</a> <sup>{{ cat[1].size }}</sup>
+    </li>
     {% endfor %}
-  </div>
+   </ul>
+
+<ul class="listing">
+   {% for cat in site.categories %}
+    <li class="listing-seperator" id="{{ cat[0] }}">{{ cat[0] }}</li>
+    {% for page in cat[1] %}
+    <li class="listing-item">
+        <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time>
+        <a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a>
+    </li>
+    {% endfor %}
 {% endfor %}
-</div>
+</ul>
