@@ -3,6 +3,7 @@ layout: default
 permalink: /categories/
 title: "分类"
 ---
+
 <div id="archives">
 {\%\for category in site.categories \%\}
   <div class="archive-group">
