@@ -3,6 +3,7 @@
  author: Jeeroc
  color_scheme: config 
  sidebar: true
+ search_enabled: true
  permalink: /:title
  defaults:  
   -   scope: 
