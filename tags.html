@@ -4,18 +4,15 @@ title: 标签
 permalink: /tags/
 ---
 <ul class="tags">
-   {% for page in site.pages %}
-    {% for tag in page.tags %}    
+   {% for tag in site.tags %}    
     <li>
         <a href="#{{ tag[0] }}">{{ tag[0] }}</a> <sup>{{ tag[1].size }}</sup>
     </li>
     {% endfor %}
-   {% endfor %}
-</ul>
+   </ul>
 
 <ul class="listing">
-    {% for pagess in site.pages %}
-    {% for tag in pagess.tags %}
+   {% for tag in site.tags %}
     <li class="listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</li>
     {% for page in tag[1] %}
     <li class="listing-item">
@@ -24,5 +21,4 @@ permalink: /tags/
     </li>
     {% endfor %}
 {% endfor %}
-{% endfor %}    
 </ul>
