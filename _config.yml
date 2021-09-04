@@ -2,11 +2,10 @@
  title: Jeeroc's Notes
  author: Jeeroc
  color_scheme: config 
- layout: layout
  sidebar: true
  permalink: /:title
  defaults:  
   -   scope: 
         path: ""
       values:
-      layout: "default"
+      layout: "post"
