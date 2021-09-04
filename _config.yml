@@ -4,7 +4,7 @@
  color_scheme: config 
  layout: layout
  sidebar: true
- permalink: /:title
+ permalink: /:title:output_ext
  defaults:  
   -   scope: 
         path: ""
