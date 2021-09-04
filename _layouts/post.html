@@ -3,6 +3,8 @@ layout: default
 ---
 
 {{ content }}
+{{ "Words",page.content | number_of_words }}
+{{ "中文字数"，content | strip_html | strip_newlines | split: "" | size }}
 {% if page.tags.size > 0 %}
         <div class="blog-tags">
           Tags:
