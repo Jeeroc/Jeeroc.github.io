@@ -4,7 +4,7 @@
  color_scheme: config 
  layout: layout
  sidebar: true
- permalink: /:categories/:year/:month/:day/:title:output_ext
+ permalink: pretty
  defaults:  
   -   scope: 
         path: ""
