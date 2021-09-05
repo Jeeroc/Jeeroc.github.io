@@ -2,7 +2,9 @@
  title: Jeeroc's Notes
  author: Jeeroc
  color_scheme: config 
- include: ["_posts/"]
+ include:  
+- "_*_.md"  
+- "_*_.*.md"
  search_enabled: true
  permalink: /:title
  defaults:  
