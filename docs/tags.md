@@ -3,26 +3,23 @@ layout: default
 title: 标签
 permalink: /tags/
 ---
+
 <ul class="tags">
-   {% for page in site.pages %}
-   {% for tag in page.tags %}    
+    {% for tag in site.tags %}
     <li>
         <a href="#{{ tag[0] }}">{{ tag[0] }}</a> <sup>{{ tag[1].size }}</sup>
     </li>
     {% endfor %}
-    {% endfor %}
-   </ul>
+</ul>
 
 <ul class="listing">
-   {% for page in site.pages %}
-   {% for tag in page.tags %}
+    {% for tag in site.tags %}
     <li class="listing-seperator" id="{{ tag[0] }}">{{ tag[0] }}</li>
-    {% for page in tag[1] %}
+    {% for post in tag[1] %}
     <li class="listing-item">
-        <time datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date:"%Y-%m-%d" }}</time>
-        <a href="{{ page.url }}" title="{{ page.title }}">{{ page.title }}</a>
+        <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+        <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
     </li>
     {% endfor %}
-{% endfor %}
 {% endfor %}
 </ul>
