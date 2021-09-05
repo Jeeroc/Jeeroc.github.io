@@ -10,12 +10,12 @@ title: "分类"
     {% for p in site.pages %}
     {{ p.categories }}
     {{ cat }}
-    {if p.categories contains cat}
+    
     <li class="listing-item">
         <time datetime="{{ p.date | date:"%Y-%m-%d" }}">{{ p.date | date:"%Y-%m-%d" }}</time>
         <a href="{{ p.url }}" title="{{ p.title }}">{{ p.title }}</a>
     </li>
-    {% endif %}
+   
     {% endfor %}
  {% endfor %}
  {% endfor %}
