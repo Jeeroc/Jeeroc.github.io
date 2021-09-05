@@ -10,7 +10,7 @@ date: 1900-01-01
     {% unless page.next %}
       <h2> {{ '!' }} </h2>
       <h2>{{ page.date | date: '%Y年' }}</h2>
-    {% else %}
+     {% else %}
       {% capture year %}{{ page.date | date: '%Y' }}{% endcapture %}
       {% capture nyear %}{{ page.next.date | date: '%Y' }}{% endcapture %}
       {% if year != nyear %}
