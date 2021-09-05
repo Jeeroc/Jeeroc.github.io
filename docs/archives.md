@@ -2,7 +2,6 @@
 layout: default
 permalink: /archives/
 title: "归档"
-date: 1900-01-01
 ---
 
 <ul>
