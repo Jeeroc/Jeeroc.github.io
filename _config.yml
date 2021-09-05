@@ -2,7 +2,7 @@
  title: Jeeroc's Notes
  author: Jeeroc
  color_scheme: config 
- keep_files:["_posts/"]
+ keep_files:["_posts/*.md"]
  search_enabled: true
  permalink: /:title
  defaults:  
