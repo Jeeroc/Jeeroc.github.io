@@ -5,8 +5,8 @@ title: "归档"
 date: 1900-01-01
 ---
 <ul>
-  {% for page in site.pages %}
-
+  {% assign sorted = site.pages | sort: 'date' | reverse %}
+  {% for page in sorted %}
     {% unless page.next %}
       <h2>{{ page.date | date: '%Y年' }}</h2>
     {% else %}
