@@ -6,7 +6,7 @@ title: "分类"
 <ul class="listing">
  {% for page in site.pages %}
  {% for cat in page.categories %}
-    <li class="listing-seperator" id="{{ cat }}">{{ cat }}</li>
+    {{ cat }}
     {% for p in site.pages %}
     {{ p.categories }}
     {{ cat }}
