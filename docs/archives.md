@@ -4,10 +4,20 @@ permalink: /archives/
 title: "归档"
 date: 1900-01-01
 ---
-<ul>
-  {% assign sorted = site.pages | sort: 'date' | reverse %}
-  {% for page in sorted %}
-    <li>{{ page.date | date:"%Y年%m月%d日：" }} <a href="{{ page.url }}">{{ page.title }}</a></li>
-  {% endfor %}
 
+<ul>
+  {% for post in site.posts %}
+
+    {% unless post.next %}
+      <h2>{{ post.date | date: '%Y年' }}</h2>
+    {% else %}
+      {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+      {% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+      {% if year != nyear %}
+        <h2>{{ post.date | date: '%Y年' }}</h2>
+      {% endif %}
+    {% endunless %}
+
+    <li>{{ post.date | date:"%Y年%m月%d日：" }} <a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
 </ul>
