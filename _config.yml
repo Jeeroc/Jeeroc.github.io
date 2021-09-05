@@ -3,8 +3,7 @@
  author: Jeeroc
  color_scheme: config 
  include:  
- - "_*_.html"  
- - "_*_.*.html"
+ - "_*/*.html"
  search_enabled: true
  permalink: /:title
  defaults:  
