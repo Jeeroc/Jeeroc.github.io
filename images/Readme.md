@@ -1,6 +1,6 @@
 ---
 titles: img
-permalink: readme/
+permalink: /readme/
 ---
 
 images
