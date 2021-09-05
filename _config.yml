@@ -2,6 +2,7 @@
  title: Jeeroc's Notes
  author: Jeeroc
  color_scheme: config 
+ include: [_*/*.html]
  search_enabled: true
  permalink: /:title
  defaults:  
