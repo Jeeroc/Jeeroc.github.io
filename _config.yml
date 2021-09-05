@@ -2,7 +2,7 @@
  title: Jeeroc's Notes
  author: Jeeroc
  color_scheme: config 
- include: ["_posts/"]
+ include: ["https://github.com/Jeeroc/Jeeroc.github.io/tree/main/_posts/"]
  search_enabled: true
  permalink: /:title
  defaults:  
