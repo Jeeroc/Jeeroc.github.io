@@ -1,6 +1,1 @@
----
-layout: default
-title: index
----
-
-![](/images/Index.png)
+<script language='javascript'>document.location = 'https://jeeroc.github.io/home.html'</script>
