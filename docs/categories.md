@@ -6,7 +6,7 @@ title: "分类"
 <ul class="listing">
  {% for page in site.pages %}
  {% for cat in page.categories %}
-    <li class="listing-seperator" id="{{ cat[0] }}">{{ cat[0] }}</li>
+    <li class="listing-seperator" id="{{ cat }}">{{ cat }}</li>
     {% for p in site.pages %}
     {if p.categories contains cat}
     <li class="listing-item">
