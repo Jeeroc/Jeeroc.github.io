@@ -3,8 +3,8 @@
  author: Jeeroc
  color_scheme: config 
  include:  
-- "_*_.md"  
-- "_*_.*.md"
+ - "_*_.md"  
+ - "_*_.*.md"
  search_enabled: true
  permalink: /:title
  defaults:  
